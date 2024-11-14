@@ -1,0 +1,61 @@
+import { Dimensions, StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#002121",
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: 40,
+    minHeight: "100%",
+  },
+  textoLogin:{
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    position: "absolute",
+    top: 40,
+  },
+  titulo: {
+    fontSize: 20,
+    color: "#fff",
+    marginBottom: 15,
+  },
+  texto: {
+    fontSize: 15,
+    color: "#aaa",
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    marginBottom: 100,
+  },
+  link: {
+    color: "#25d4ff",
+    fontWeight: "bold",
+  },
+  input: {
+    width: "60%",
+    color: "#fff",
+    height: 40,
+    borderBottomWidth: 2,
+    borderBottomColor: "#119f7f",
+    borderRadius: 10,
+    marginBottom: 20,
+    paddingLeft: 10,
+    fontSize: 15,
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+  },
+  buttonContainer: {
+    width: "90%",
+    height: 40,
+    justifyContent: "center",
+    alignItems: "center",
+    textAlign: "center",
+    borderRadius: 30,
+    backgroundColor: "#119f7f",
+    position: "absolute",
+    bottom: 10,
+  },
+});
